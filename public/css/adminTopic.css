@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-01-29 16:02:49
+ * @version $Id$
+ */
+
+*{
+	margin:0;
+	padding:0;
+
+}
+html{
+	overflow:hidden;'
+	min-width:1200px;
+}
+html,body{
+	margin:0;
+	padding:0;	
+}
+body{
+	width:100%;
+	min-width: 200px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#C0C0C0;
+}
+
+#topic_type select{
+	width:100px;
+}
+header{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:#36CC87;
+	height:60px;
+}
+
+.round{
+	position:absolute;
+	width:0;
+}
+.round1{
+	border:15px solid #FFFFFF;
+	border-radius:15px;
+	right:10px;
+	top:15px;
+}
+.round2{
+	border:12px solid #FFFFFF;
+	border-radius:12px;
+	right:50px;
+	top:18px;
+}
+.round3{
+	border:8px solid #FFFFFF;
+	border-radius:8px;
+	right:80px;
+	top:22px;
+}
+footer{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:30px;
+	background-color:#45AD65;
+}
+.manager{
+	width:100%;
+	position:absolute;
+	height:25px;
+	background-color:#45AD65;
+	color:white;
+	bottom:0;
+	text-align:center;
+	font-size:10px;
+}
+.main{
+	width:100%;
+	height:auto;
+}
+
+.main{
+    position:absolute;
+	top:60px;
+	left:0;
+	right:0;
+	bottom:30px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width:100%;
+	margin:0 auto;
+}
+/*@media (max-width: 768px) {
+	.stu_system_name{
+	width:90%;
+	}
+	.nav_bar_list{
+		width:100%;
+	}
+}
+@media (min-width: 768px) {
+
+	.stu_system_name{
+	width:80%;
+	}
+}*/
+
+.operation_display{
+	width: 100%;
+	margin-bottom: 70px;
+}
+.operation_display form{
+	display: inline-block;
+}
+.operation_display select,.operation_display  input{
+	height: 30px;
+	font-size: 13px;
+	margin:5px 5px;
+}
+.operation_display input[type="button"]{
+	background-color: #0DCEE2;
+	border-color: #0DCEE2;
+}
+.main .form-control{
+	width:200px;
+	display: inline-block;
+}
+.submit_message{
+	color:red;
+	font-size: 15px;
+	text-align: center;
+	min-height: 25px;
+}
+
+.inform_message{
+	color:red;
+	text-align: center;
+}
+
+.topic_manager,.operation_display,#search_result_display{
+	width:74%;
+	height:auto;
+	margin:20px auto;
+}
+.table-responsive tr td{
+	padding:8px;
+}
+
+.table-responsive tr td input{
+	width:50px;
+	height:30px;
+	font-size: 12px;
+	margin:5px;
+
+}
+.topic_type{
+	margin:20px auto;
+	width: 74%;
+	
+}
+.main span{
+	font-size: 14px;
+}
+.w-e-menu{
+	width:35px;
+	height:30px;
+	font-size: 14px;
+}
+#rply div{
+	width: 100%;
+	border-bottom: 1px solid #efefef;
+	padding:3px;
+
+}
+#rply div:nth-last-child(1){
+	border-bottom: 0px;
+}

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-08-28 11:56:13
+ * @version $Id$
+ */
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	overflow:hidden;
+}
+html,body{
+	margin:0;
+	padding:0;	
+}
+body{
+	width:100%;
+
+}
+.wrap{
+	position:absolute;
+	left:0;
+	top:0;
+	bottom:0;
+	width:100%;
+	margin:0 auto;
+}
+header{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:#36CC87;
+	height:60px;
+}
+
+.round{
+	position:absolute;
+	width:0;
+}
+.round1{
+	border:15px solid #FFFFFF;
+	border-radius:15px;
+	right:10px;
+	top:15px;
+}
+.round2{
+	border:12px solid #FFFFFF;
+	border-radius:12px;
+	right:50px;
+	top:18px;
+}
+.round3{
+	border:8px solid #FFFFFF;
+	border-radius:8px;
+	right:80px;
+	top:22px;
+}
+.main{
+	position: absolute;
+	top:60px;
+	left:0;
+	bottom:30px;
+	overflow-y:auto;
+	overflow-x: hidden;
+	width:100%;	
+}
+.mainbody{
+	position:absolute;
+	top:0;
+	bottom:0;
+ 	left:50%;
+ 	transform:translateX(-50%);	
+	background-color:white;
+	height:100%;
+}
+@media (max-width: 768px) {
+	.mainbody{
+		width:100%;
+	}
+	.stu_system_name{
+		width:90%;
+	}
+	.stu_data_head{
+		width:90%;
+	}
+}
+@media (min-width: 768px) {
+	.mainbody{
+		width:70%;
+	}
+	.stu_system_name{
+	width:80%;
+	}
+	.stu_data_head{
+	width:100%;
+	}
+}
+.stu_data_head{
+	box-sizing: border-box;
+	padding-left:20px;
+	position:relative;
+	width:100%;
+	height:40px;
+	border-bottom:1px solid rgb(217,217,217);
+	background-color: white;
+}
+.stu_data_head span{
+	color:#AFAFAF;
+	display: inline-block;
+	box-sizing: border-box;
+	height:40px;
+	
+	position:absolute;
+	padding:10px 5px;
+	font-size: 13px;
+}
+.stu_data_head span:nth-child(1){
+	right:175px;
+}
+.stu_data_head span:nth-child(3){
+	right:15px;
+}
+.stu_data_head span:nth-child(2){
+	right:75px;
+}
+.submit_form{
+	height:28px;
+	color:white;
+	font-size:13px;
+	margin-top:-5px;
+	background-color:#0DCEE2;
+	border:1px solid #0DCEE2;
+	border-radius:4px;
+	padding:5px 10px;
+}/*设置按钮样式*/
+.stu_system_name{
+	margin:40px auto;
+	border-bottom: 1px solid rgb(217,217,217);
+}
+.stu_system_name p{
+	text-align:center;
+	color:rgb(127,127,127);
+}
+.stu_system_name p:nth-child(1){
+	font-size:35px;
+	margin-bottom: 20px;
+}
+.stu_system_name p:nth-child(2){
+	font-size:12px;
+	margin-top:-10px;
+}
+
+.stu_data_list{
+	margin:40px auto;
+	background-color:white;
+	width:100%;
+	padding-bottom:30px;
+}
+.table-responsive{
+    	width:90%;
+    	margin:20px auto;
+}
+ .table-responsive table tr td{
+   	width:7.60%;
+    	border:1.5px solid rgb(160,160,160);
+  }
+footer{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:30px;
+	background-color:#45AD65;
+}
+.manager{
+	width:100%;
+	position:absolute;
+	height:25px;
+	background-color:#45AD65;
+	color:white;
+	bottom:0;
+	text-align:center;
+	font-size:10px;
+}
